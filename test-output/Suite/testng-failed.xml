@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="browser" value="chorme"/>
+  <test name="On Firefox(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.Ranfordbank.master.Grid">
+        <methods>
+          <include name="gd" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.Ranfordbank.master.Grid -->
+    </classes>
+  </test> <!-- On Firefox(failed) -->
+  <test name="On chrome(failed)">
+    <parameter name="browser" value="chorme"/>
+    <classes>
+      <class name="com.Ranfordbank.master.Grid">
+        <methods>
+          <include name="gd" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.Ranfordbank.master.Grid -->
+    </classes>
+  </test> <!-- On chrome(failed) -->
+</suite> <!-- Failed suite [Suite] -->
